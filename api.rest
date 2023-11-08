@@ -48,3 +48,28 @@ content-type: application/json
 
 DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/users/6542da20c20d9ad95c739701 HTTP/1.1
 content-type: application/json
+
+###
+
+POST https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU", 
+    "edad": 7 
+}
+
+###
+
+POST https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Amogus", 
+    "edad": 5 
+}
+
+### 
+
+GET http://localhost:3000/api/users HTTP/1.1
+content-type: application/json
