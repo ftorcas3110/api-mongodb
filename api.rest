@@ -4,8 +4,9 @@ POST http://localhost:3000/api/users HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "Eva", 
-    "edad": 20 
+    "nombre": "Pepino", 
+    "stock": 47,
+    "descripcion": "Descripcion del pepino" 
 }
 
 ### 
@@ -14,8 +15,9 @@ POST http://localhost:3000/api/users HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "Jose", 
-    "edad": 21 
+    "nombre": "Melocoton", 
+    "stock": 20,
+    "descripcion": "Descripcion del melocoton" 
 }
 
 
@@ -35,8 +37,9 @@ PUT http://localhost:3000/api/users/6548f6566802ae8e19bd782b HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "José Antonio", 
-    "edad": 32 
+    "nombre": "Jamon", 
+    "stock": 47,
+    "descripcion": "Descripcion del jamon" 
 }
 
 ###
@@ -49,27 +52,29 @@ content-type: application/json
 DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/users/6542da20c20d9ad95c739701 HTTP/1.1
 content-type: application/json
 
-###
+### Posts
 
-POST https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/users HTTP/1.1
+POST https://api-mongodb-dev-reda.2.us-1.fl0.io/api/users HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU", 
-    "edad": 7 
+    "nombre": "Pepino", 
+    "stock": 47,
+    "descripcion": "Descripcion del pepino" 
 }
 
 ###
 
-POST https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/users HTTP/1.1
+POST https://api-mongodb-dev-reda.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "Amogus", 
-    "edad": 5 
+    "nombre": "Soy un producto nuevo", 
+    "stock": 47,
+    "descripcion": "Descripcion del producto nuevo" 
 }
 
-### 
+### Visualizar todo
 
-GET http://localhost:3000/api/users HTTP/1.1
+GET  https://api-mongodb-dev-reda.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
