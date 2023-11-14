@@ -1,6 +1,6 @@
 # Ejemplos
 
-POST http://localhost:3000/api/productos HTTP/1.1
+POST https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
     {"nombre": "Pepino", "stock": 47, "descripcion": "Descripcion del pepino" },
@@ -17,7 +17,7 @@ content-type: application/json
 
 ### 
 
-POST http://localhost:3000/api/productos HTTP/1.1
+POST https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
@@ -29,17 +29,17 @@ content-type: application/json
 
 ### 
 
-GET http://localhost:3000/api/productos HTTP/1.1
+GET https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 ###
 
-GET http://localhost:3000/api/productos/65539b4ef00527807b5e4b13 HTTP/1.1
+GET https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/productos/65539b4ef00527807b5e4b13 HTTP/1.1
 content-type: application/json
 
 ###
 
-PUT http://localhost:3000/api/productos/65539b4ef00527807b5e4b13 HTTP/1.1
+PUT https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/productos/65539b4ef00527807b5e4b13 HTTP/1.1
 content-type: application/json
 
 { 
@@ -50,7 +50,7 @@ content-type: application/json
 
 ###
 
-DELETE http://localhost:3000/api/productos/65539b4ef00527807b5e4b13 HTTP/1.1
+DELETE https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/productos/65539b4ef00527807b5e4b13 HTTP/1.1
 content-type: application/json
 
 ###
