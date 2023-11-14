@@ -3,16 +3,11 @@
 POST https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
-    {"nombre": "Patata", "stock": 20, "descripcion": "Tuberculo que se puede comer de varias formas"},
-    {"nombre": "Lechuga", "stock": 4, "descripcion": "Vegetal de hojas verdes para ensaladas"},
-    {"nombre": "Calabaza", "stock": 7, "descripcion": "Producto vegetal cuyo valor se incrementa a finales de Octubre"},
-    {"nombre": "Cebolla", "stock": 52, "descripcion": "Bulbo que te hará llorar al trocearlo"},
-    {"nombre": "Tomate", "stock": 19, "descripcion": "De hecho, este producto es una fruta, no una verdura"},
-    {"nombre": "Berenjena", "stock": 31, "descripcion": "No confundir con un huevo"},
-    {"nombre": "Sandia", "stock": 11, "descripcion": "No usar para pintar paredes de rojo"},
-    {"nombre": "Brocoli", "stock": 73, "descripcion": "El mas pequeño de los arboles"},
-    {"nombre": "Calabacin", "stock": 44, "descripcion": "No, no es una calabaza pequeña"},
-    {"nombre": "Pimenton", "stock": 13, "descripcion": "Un precioso pimiento listo para ser brutalmente convertido en polvo"}
+{
+        "nombre": "Patata", 
+        "stock": 20, 
+        "descripcion": "Tuberculo que se puede comer de varias formas"
+}
 
 ### 
 
