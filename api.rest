@@ -3,7 +3,6 @@
 POST https://api-mongodb-dev-jfpj.1.ie-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
-    {"nombre": "Pepino", "stock": 47, "descripcion": "Descripcion del pepino" },
     {"nombre": "Patata", "stock": 20, "descripcion": "Tuberculo que se puede comer de varias formas"},
     {"nombre": "Lechuga", "stock": 4, "descripcion": "Vegetal de hojas verdes para ensaladas"},
     {"nombre": "Calabaza", "stock": 7, "descripcion": "Producto vegetal cuyo valor se incrementa a finales de Octubre"},
